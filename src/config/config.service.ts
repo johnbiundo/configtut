@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ConfigManager } from 'nestjs-config-manager';
+import { ConfigManager } from '@nestjsplus/config';
 import * as Joi from '@hapi/joi';
 
 @Injectable()

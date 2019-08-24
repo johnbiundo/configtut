@@ -1,7 +1,7 @@
 // src/config/config.module.ts
 import { Module, Global } from '@nestjs/common';
 import { ConfigService } from './config.service';
-import { ConfigManagerModule } from 'nestjs-config-manager';
+import { ConfigManagerModule } from '@nestjsplus/config';
 
 @Global()
 @Module({
